@@ -13,6 +13,7 @@
 | howdoi | Windows | Programming questions | `pip install howdoi` | [Usage](http://gleitz.github.io/howdoi/howdoi_advanced_usage/) |
 | pushbullet | WSL | Send notifications | `pip install pushbullet-cli` |  |
 | diff2html | Windows | diff | `npm install -g diff2html-cli` |  |
+| qalculate | Windows | calculator | [qalculate](https://qalculate.github.io/manual/qalculate-user-interface.html) | |
 
 
 
