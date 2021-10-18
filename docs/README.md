@@ -1,3 +1,4 @@
-# My WSL Setup
+# My Apps
 
-> This is the documentation of my WSL setup. Based on [docsify](https://docsify.js.org/).
+> Just a place to collect the apps (CLI apps) that I find useful and want to remember. Based on [docsify](https://docsify.js.org/).
+

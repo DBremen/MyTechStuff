@@ -1,4 +1,2 @@
-- My WSL Setup
-  - [Setup](Setup.md)
-  - [Corp. setup (cert. issues)](CorpSetup.md)
-  - [HowTo](HowTo.md)
+- My Apps
+  - [Apps](Apps.md)
