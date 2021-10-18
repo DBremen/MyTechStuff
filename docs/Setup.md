@@ -3,16 +3,22 @@
 1. ````powershell
    dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
    ```
+   
 2. ```powershell
    dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
    restart
    ```
+   
 3. Restart
+
 4. ```bash
    wsl --set-default-version 2
    ```
+   
 5. If error during 4. then download **https://aka.ms/wsl2kernel** and repeat 4.
+
 6. Double-check version with `wsl -l -v`.
+
 7. Download and install Ubuntu package ([here](https://www.microsoft.com/store/apps/9n6svws3rx71))
 
 8. ```bash
@@ -37,7 +43,26 @@
 
    - http://kevinprogramming.com/using-zsh-in-windows-terminal/
 
-10. Python setup
+10. PowerShell setup
+
+    - ```bash
+      # Update the list of packages 
+      sudo apt-get update 
+      # Install pre-requisite packages. 
+      sudo apt-get install -y wget apt-transport-https software-properties-common 
+      # Download the Microsoft repository GPG keys 
+      wget -q https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb 
+      # Register the Microsoft repository GPG keys 
+      sudo dpkg -i packages-microsoft-prod.deb 
+      # Update the list of packages after we added [packages.microsoft.com(http://packages.microsoft.com) 
+      sudo apt-get update 
+      # Install PowerShell
+      sudo apt-get install -y powershell
+      # Start PowerShell
+      pwsh
+      ```
+
+11. Python setup
 
    - ```bash
      sudo apt update && upgrade
