@@ -1,28 +1,18 @@
 # Setting up WSL 2 with Ubuntu and zsh
 
-1. `
-
-   ```powershell
+1. ````powershell
    dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
    ```
-
-   `
-
 2. ```powershell
    dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
    restart
    ```
-
 3. Restart
-
 4. ```bash
    wsl --set-default-version 2
    ```
-
 5. If error during 4. then download **https://aka.ms/wsl2kernel** and repeat 4.
-
 6. Double-check version with `wsl -l -v`.
-
 7. Download and install Ubuntu package ([here](https://www.microsoft.com/store/apps/9n6svws3rx71))
 
 8. ```bash
