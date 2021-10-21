@@ -1,4 +1,6 @@
-- My Apps
-  - [Apps](Apps.md)
-- Test
-  - [Apps2](Test/Apps.md)
+- MyApps
+  - [Apps](MyApps/Apps.md)
+- MyWSLSetup
+  - [CorpSetup](MyWSLSetup/CorpSetup.md)
+  - [HowTo](MyWSLSetup/HowTo.md)
+  - [Setup](MyWSLSetup/Setup.md)
